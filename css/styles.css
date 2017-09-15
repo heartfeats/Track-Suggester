@@ -17,6 +17,12 @@ h5 {
   margin: 15px;
 }
 
+#submit {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
 #ruby {
   display: none;
 }
@@ -26,5 +32,9 @@ h5 {
 }
 
 #c {
+  display: none;
+}
+
+#all {
   display: none;
 }

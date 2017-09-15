@@ -13,7 +13,7 @@
     <h5>Please answer the questions below to help determine which track <strong><em>might</em></strong> be best for you.</h5>
     <form id="formOne">
       <p>Do you like design and spending time making things look good?</p>
-      <select class="form-comtrol" id="looks">
+      <select class="form-comtrol" id="design">
         <option disabled selected value> -- select an option -- </option>
         <option value="100">Not really</option>
         <option value="10">Maybe</option>
@@ -27,28 +27,29 @@
         <option value="100">Absolutely</option>
       </select>
       <p>Does server side programming interest you?</p>
-      <select class="form-comtrol" id="likes">
+      <select class="form-comtrol" id="server">
         <option disabled selected value> -- select an option -- </option>
         <option value="1">Not at all</option>
         <option value="10">It might</option>
         <option value="100">Very much so</option>
       </select>
       <p>Does open source matter to you?</p>
-      <select class="form-comtrol" id="likes">
+      <select class="form-comtrol" id="open">
         <option disabled selected value> -- select an option -- </option>
         <option value="1">I don't like open source</option>
         <option value="100">Only a bit</option>
         <option value="10">Open source always please!</option>
       </select>
       <p>Would you like to focus mostly on front end development?</p>
-      <select class="form-comtrol" id="likes">
+      <select class="form-comtrol" id="front">
         <option disabled selected value> -- select an option -- </option>
         <option value="100">No</option>
         <option value="10">I dont know</option>
         <option value="1">Yes</option>
       </select>
+      <button id="submit" type="submit"class="btn-info">Submit</button>
     </form>
-    <h5>You fall somewhere inbetween and may enjoy any one of these programming languages!</h5>
+    <span id="all"><h5>You fall somewhere inbetween and may enjoy any one of these programming languages!</h5></span>
     <div class="row">
       <div class="col-md-4">
         <div id="ruby">
