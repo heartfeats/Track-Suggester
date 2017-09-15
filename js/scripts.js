@@ -1,5 +1,10 @@
 $(function() {
-  $("form#add").submit(function(event){
+  $("#formOne").submit(function(event) {
+    $("#css").hide();
+    $("#ruby").hide();
+    $("#c").hide();
+    $("#all").hide();
+
     var questionOne = parseInt($('#design').val());
     var questionTwo = parseInt($('#ide').val());
     var questionThree = parseInt($('#open').val());
@@ -18,6 +23,9 @@ $(function() {
       $("#c").show();
     }
     else {
+      $("#css").show();
+      $("#ruby").show();
+      $("#c").show();
       $("#all").show();
     }
     event.preventDefault();
