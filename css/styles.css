@@ -1,0 +1,30 @@
+h3 {
+  color: #4ff446;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+#formOne {
+  display: block;
+  text-align: center;
+  margin-top: 75px;
+}
+
+#formOne p {
+  margin: 15px;
+}
+
+#ruby {
+  display: none;
+}
+
+#css {
+  display: none;
+}
+
+#c {
+  display: none;
+}

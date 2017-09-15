@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track Suggester</title>
+  </head>
+  <body>
+    <h3>Welcome to my <span style="color:#60fffc"><em>Track Suggester</em></span> page!</h3>
+    <h5>Please answer the questions below to help determine which track <strong><em>might</em></strong> be best for you.</h5>
+    <form id="formOne">
+      <p>Do you like design and spending time making things look good?</p>
+      <select class="form-comtrol" id="looks">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="100">Not really</option>
+        <option value="10">Maybe</option>
+        <option value="1">Most definitely!</option>
+      </select>
+      <p>Is an easy to use IDE important to you?</p>
+      <select class="form-comtrol" id="ide">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="10">I could care less</option>
+        <option value="1">I'm not really sure</option>
+        <option value="100">Absolutely</option>
+      </select>
+      <p>Does server side programming interest you?</p>
+      <select class="form-comtrol" id="likes">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="1">Not at all</option>
+        <option value="10">It might</option>
+        <option value="100">Very much so</option>
+      </select>
+      <p>Does open source matter to you?</p>
+      <select class="form-comtrol" id="likes">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="1">I don't like open source</option>
+        <option value="100">Only a bit</option>
+        <option value="10">Open source always please!</option>
+      </select>
+      <p>Would you like to focus mostly on front end development?</p>
+      <select class="form-comtrol" id="likes">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="100">No</option>
+        <option value="10">I dont know</option>
+        <option value="1">Yes</option>
+      </select>
+    </form>
+    <h5>You fall somewhere inbetween and may enjoy any one of these programming languages!</h5>
+    <div class="row">
+      <div class="col-md-4">
+        <div id="ruby">
+          <h5>Ruby/Rails</h5>
+          <p>Ruby is a beginner-friendly and dynamic language. It powers Ruby on Rails, which is a framework used to quickly develop sites and applications. Ruby is used on sites like Twitter and Shopify. In fact, Epicodus's own Learn How to Program site, where our Epicodus curriculum is hosted, is built using Ruby and Rails!</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="css">
+          <h5>Css/Design</h5>
+          <p>CSS is designed primarily to enable the separation of presentation and content, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div id="c">
+          <h5>C#/.NET</h5>
+          <p>C# is popular with larger businesses and is backed by Microsoft. Microsoft has made C# open source, so it can run on other operating systems like Mac and Linux.</p>
+        </div>
+      </div>
+
+  </body>
+</html>
