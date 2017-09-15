@@ -7,13 +7,22 @@ h5 {
   text-align: center;
 }
 
+.row h5 {
+  color: #55baed;
+}
+
+#instructions {
+  margin-top: 25px;
+}
+
 #formOne {
   display: block;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 25px;
 }
 
 #formOne p {
+  color: #f40000;
   margin: 15px;
 }
 
@@ -36,10 +45,18 @@ h5 {
 }
 
 #all {
+  color: #4ff446;
   display: none;
 }
 
 .row p {
   margin-left: 25px;
   margin-right: 15px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: 150px;
+  width: auto;
 }
